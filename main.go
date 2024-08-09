@@ -15,7 +15,7 @@ func main() {
 	// Remove Date time from log
 	log.SetFlags(log.Flags() &^ (log.Ldate | log.Ltime))
 	app := &cli.App{
-		Name:      "JioTV Go",
+		Name:      "Sexy",
 		Usage:     "Stream JioTV on any device",
 		HelpName:  "jiotv_go",
 		Version:  "v3.7.0",
